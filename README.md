@@ -1,0 +1,2 @@
+# go
+First GO project
