@@ -1,4 +1,3 @@
-#
 #!/bin/bash
 ##This is build file to override the regular docker hub build
 ##$PORT,$DOCERFILE_PATH,$IMAGE_NAME are all docker hub provided variables
