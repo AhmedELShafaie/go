@@ -4,3 +4,5 @@ echo -e "This script runs after post push  "
 echo -e "=================================="
 
 echo -e "$DOCKERFILE_PATH  $IMAGE_NAME  $DOCKER_TAG"
+docker tag $IMAGE_NAME $DOCKER_REPO:$SOURCE_COMMIT
+docker push  $DOCKER_REPO:$SOURCE_COMMIT
