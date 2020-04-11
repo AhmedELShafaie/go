@@ -16,5 +16,7 @@
 #    echo -e "building docker image using Port: $PORT_STAGE"
 #    docker build --build-arg PORT=$PORT_STAGE -f $DOCERFILE_PATH -t $IMAGE_NAME .
 #fi
+
 #
+set -e
 echo $DOCERFILE_PATH ',' $IMAGE_NAME
