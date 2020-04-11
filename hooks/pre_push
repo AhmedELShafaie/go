@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -e "===================================="
+echo -e "This script is run PRE push  process"
+echo -e "===================================="
+exit 0

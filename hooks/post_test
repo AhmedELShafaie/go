@@ -1,0 +1,6 @@
+#!/bin/bash
+echo -e "=================================="
+echo -e "This script runs after post test  "
+echo -e "=================================="
+
+echo -e "$DOCKERFILE_PATH  $IMAGE_NAME  $DOCKER_TAG"
