@@ -19,4 +19,5 @@
 
 #
 set -e
-echo $DOCERFILE_PATH ',' $IMAGE_NAME
+docker build --build-arg PORT=$PORT -f $DOCERFILE_PATH -t $IMAGE_NAME .
+echo $DOCERFILE_PATH ',' $IMAGE_NAME ',' $PORT
