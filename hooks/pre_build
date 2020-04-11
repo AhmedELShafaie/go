@@ -2,4 +2,4 @@
 echo -e "===================================="
 echo -e "This script is run PRE build process"
 echo -e "===================================="
-exit @
+exit 0
